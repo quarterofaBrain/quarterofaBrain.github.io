@@ -1,0 +1,47 @@
+/*  Наш первый CSS-файл */
+
+@font-face {
+    font-family: ubuntu;
+    src: url("../img/ubuntu.woff") format("woff"), url("../fonts/ubuntu.ttf") format("ttf");
+}
+a {
+	color: #61ded0; 
+	padding: 2px; 
+	text-decoration: none; 
+}
+a:visited {
+	color: #61ded0; 
+	text-decoration: none; 
+} 
+a:hover {
+	text-decoration: none; 
+	color: #61ded0;   
+	/*background: #61ded0;*/
+}
+nav{
+	background-color: #61ded0;
+}
+
+div{
+	text-align: left;
+}
+h1 {
+	font-family: ubuntu;
+    text-align: left;
+}
+table{
+	background-color: #1c232a;
+}
+pre{
+	color: #61ded0;
+	background-color: #1c232a;
+}
+body{
+	font-size: 146%; /* Отсылка*/
+	background-color: #29333e;
+	font-family: ubuntu;
+	text-align: left;
+}
+footer{
+	text-align:center;
+}
